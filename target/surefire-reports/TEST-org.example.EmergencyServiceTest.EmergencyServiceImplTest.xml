@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="1.805" tests="29" errors="0" skipped="0" failures="0" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="27"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dheerajjoshi/Desktop/EmergencyResponseManagementSystem/target/test-classes:/Users/dheerajjoshi/Desktop/EmergencyResponseManagementSystem/target/classes:/Users/dheerajjoshi/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/dheerajjoshi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/dheerajjoshi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/dheerajjoshi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/dheerajjoshi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dheerajjoshi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/dheerajjoshi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/dheerajjoshi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="27"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Users/dheerajjoshi/Library/Java/JavaVirtualMachines/openjdk-27.0.1.0.3/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/dheerajjoshi/Desktop/EmergencyResponseManagementSystem/target/surefire/surefirebooter-20261025162903322_3.jar /Users/dheerajjoshi/Desktop/EmergencyResponseManagementSystem/target/surefire 2026-10-25T16-29-03_279-jvmRun1 surefire-20261025162903322_1tmp surefire_0-20261025162903322_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/dheerajjoshi/Desktop/EmergencyResponseManagementSystem/target/test-classes:/Users/dheerajjoshi/Desktop/EmergencyResponseManagementSystem/target/classes:/Users/dheerajjoshi/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/dheerajjoshi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/dheerajjoshi/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/dheerajjoshi/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/Users/dheerajjoshi/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/dheerajjoshi/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/dheerajjoshi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/dheerajjoshi/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/dheerajjoshi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-10-25"/>
+    <property name="java.home" value="/Users/dheerajjoshi/Library/Java/JavaVirtualMachines/openjdk-27.0.1.0.3/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dheerajjoshi/Desktop/EmergencyResponseManagementSystem"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/dheerajjoshi/Desktop/EmergencyResponseManagementSystem/target/surefire/surefirebooter-20261025162903322_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="27.0.1.0.3+1-2"/>
+    <property name="user.name" value="dheerajjoshi"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/dheerajjoshi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/6j/vcqcygdx43j8phsstf3vvxlm0000gn/T/"/>
+    <property name="java.version" value="27.0.1.0.3"/>
+    <property name="user.dir" value="/Users/dheerajjoshi/Desktop/EmergencyResponseManagementSystem"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/dheerajjoshi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="27.0.1.0.3+1-2"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="71.0"/>
+  </properties>
+  <testcase name="nextAnalysed_whenAnalysisFinishedAndEmpty_returnsNull" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.014"/>
+  <testcase name="nextRecorded_whenFinishedButItemsRemain_stillDrainsThem" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.001"/>
+  <testcase name="analyseEmergency_assignsPriorityByType(EmergencyType, String, EmergencyPriority)[1]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.013">
+    <system-out><![CDATA[
+[main] ANALYSED  Test | MEDICAL | HIGH | -
+]]></system-out>
+  </testcase>
+  <testcase name="analyseEmergency_assignsPriorityByType(EmergencyType, String, EmergencyPriority)[2]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.002">
+    <system-out><![CDATA[
+[main] ANALYSED  Test | NATURAL_DISASTER | HIGH | -
+]]></system-out>
+  </testcase>
+  <testcase name="analyseEmergency_assignsPriorityByType(EmergencyType, String, EmergencyPriority)[3]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.001">
+    <system-out><![CDATA[
+[main] ANALYSED  Test | FIRE | MEDIUM | -
+]]></system-out>
+  </testcase>
+  <testcase name="analyseEmergency_assignsPriorityByType(EmergencyType, String, EmergencyPriority)[4]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.001">
+    <system-out><![CDATA[
+[main] ANALYSED  Test | ROAD_ACCIDENT | MEDIUM | -
+]]></system-out>
+  </testcase>
+  <testcase name="analyseEmergency_assignsPriorityByType(EmergencyType, String, EmergencyPriority)[5]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.001">
+    <system-out><![CDATA[
+[main] ANALYSED  Test | SECURITY | LOW | -
+]]></system-out>
+  </testcase>
+  <testcase name="recordEmergencyDetails_validInput_buildsDetails" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.011">
+    <system-out><![CDATA[
+Name of affected person (or 'done' to stop): Description: Location: Type: 1-MEDICAL 2-FIRE 3-SECURITY 4-NATURAL_DISASTER 5-ROAD_ACCIDENT
+]]></system-out>
+  </testcase>
+  <testcase name="recordEmergencyDetails_invalidTypeChoices_asksAgainUntilValid" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.002">
+    <system-out><![CDATA[
+Name of affected person (or 'done' to stop): Description: Location: Type: 1-MEDICAL 2-FIRE 3-SECURITY 4-NATURAL_DISASTER 5-ROAD_ACCIDENT
+Invalid choice, try again.
+Type: 1-MEDICAL 2-FIRE 3-SECURITY 4-NATURAL_DISASTER 5-ROAD_ACCIDENT
+Invalid choice, try again.
+Type: 1-MEDICAL 2-FIRE 3-SECURITY 4-NATURAL_DISASTER 5-ROAD_ACCIDENT
+Invalid choice, try again.
+Type: 1-MEDICAL 2-FIRE 3-SECURITY 4-NATURAL_DISASTER 5-ROAD_ACCIDENT
+]]></system-out>
+  </testcase>
+  <testcase name="nextAnalysed_samePriority_keepsArrivalOrder" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.001"/>
+  <testcase name="assignUnit_whenAllUnitsBusy_waitsUntilOneIsReleased" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="1.217">
+    <system-out><![CDATA[
+[main] ASSIGNED  A | MEDICAL | LOW | Ambulance-1
+
+[ForkJoinPool.commonPool-worker-1] ASSIGNED  B | ROAD_ACCIDENT | LOW | Ambulance-1
+
+[pool-13-thread-1] RELEASED  Ambulance-1
+
+[pool-13-thread-2] RELEASED  Ambulance-1
+]]></system-out>
+  </testcase>
+  <testcase name="analyseEmergency_criticalKeywords_overrideTypePriority(String)[1]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.005">
+    <system-out><![CDATA[
+[main] ANALYSED  Test | SECURITY | CRITICAL | -
+]]></system-out>
+  </testcase>
+  <testcase name="analyseEmergency_criticalKeywords_overrideTypePriority(String)[2]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.002">
+    <system-out><![CDATA[
+[main] ANALYSED  Test | SECURITY | CRITICAL | -
+]]></system-out>
+  </testcase>
+  <testcase name="analyseEmergency_criticalKeywords_overrideTypePriority(String)[3]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.002">
+    <system-out><![CDATA[
+[main] ANALYSED  Test | SECURITY | CRITICAL | -
+]]></system-out>
+  </testcase>
+  <testcase name="analyseEmergency_criticalKeywords_overrideTypePriority(String)[4]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.001">
+    <system-out><![CDATA[
+[main] ANALYSED  Test | SECURITY | CRITICAL | -
+]]></system-out>
+  </testcase>
+  <testcase name="assignUnit_addsEmergencyToHandledList" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.036">
+    <system-out><![CDATA[
+[main] ASSIGNED  Test | FIRE | LOW | FireTruck-1
+
+[pool-18-thread-1] RELEASED  FireTruck-1
+]]></system-out>
+  </testcase>
+  <testcase name="getHandled_returnsACopy_soCallersCannotModifyInternalState" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.037">
+    <system-out><![CDATA[
+[main] ASSIGNED  Test | FIRE | LOW | FireTruck-1
+
+[pool-19-thread-1] RELEASED  FireTruck-1
+]]></system-out>
+  </testcase>
+  <testcase name="nextRecorded_whenRecordingFinishedAndEmpty_returnsNull" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.001"/>
+  <testcase name="recordEmergencyDetails_typingDone_returnsNull" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.001">
+    <system-out><![CDATA[
+Name of affected person (or 'done' to stop): ]]></system-out>
+  </testcase>
+  <testcase name="nextAnalysed_returnsMostUrgentFirst" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.001"/>
+  <testcase name="pipeline_oneEmergencyFlowsThroughAllStages" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.063">
+    <system-out><![CDATA[
+[main] ANALYSED  Meena | FIRE | CRITICAL | -
+
+[main] ASSIGNED  Meena | FIRE | CRITICAL | FireTruck-1
+
+[pool-23-thread-1] RELEASED  FireTruck-1
+]]></system-out>
+  </testcase>
+  <testcase name="nextRecorded_blocksUntilSomethingIsAdded" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.154"/>
+  <testcase name="nextRecorded_returnsEmergenciesInArrivalOrder" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.001"/>
+  <testcase name="recordEmergencyDetails_blankValues_areRejectedUntilValid" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.003">
+    <system-out><![CDATA[
+Name of affected person (or 'done' to stop): Name cannot be empty. Please enter a valid value.
+
+Name of affected person (or 'done' to stop): Description: Description cannot be empty. Please enter a valid value.
+Description: Location: Location cannot be empty. Please enter a valid value.
+Location: Type: 1-MEDICAL 2-FIRE 3-SECURITY 4-NATURAL_DISASTER 5-ROAD_ACCIDENT
+]]></system-out>
+  </testcase>
+  <testcase name="assignUnit_picksUnitOfTheRequiredType(EmergencyType, UnitType)[1]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.038">
+    <system-out><![CDATA[
+[main] ASSIGNED  Test | MEDICAL | LOW | Ambulance-1
+
+[pool-27-thread-1] RELEASED  Ambulance-1
+]]></system-out>
+  </testcase>
+  <testcase name="assignUnit_picksUnitOfTheRequiredType(EmergencyType, UnitType)[2]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.034">
+    <system-out><![CDATA[
+[main] ASSIGNED  Test | ROAD_ACCIDENT | LOW | Ambulance-1
+
+[pool-28-thread-1] RELEASED  Ambulance-1
+]]></system-out>
+  </testcase>
+  <testcase name="assignUnit_picksUnitOfTheRequiredType(EmergencyType, UnitType)[3]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.034">
+    <system-out><![CDATA[
+[main] ASSIGNED  Test | FIRE | LOW | FireTruck-1
+
+[pool-29-thread-1] RELEASED  FireTruck-1
+]]></system-out>
+  </testcase>
+  <testcase name="assignUnit_picksUnitOfTheRequiredType(EmergencyType, UnitType)[4]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.037">
+    <system-out><![CDATA[
+[main] ASSIGNED  Test | SECURITY | LOW | Police-1
+
+[pool-30-thread-1] RELEASED  Police-1
+]]></system-out>
+  </testcase>
+  <testcase name="assignUnit_picksUnitOfTheRequiredType(EmergencyType, UnitType)[5]" classname="org.example.EmergencyServiceTest.EmergencyServiceImplTest" time="0.035">
+    <system-out><![CDATA[
+[main] ASSIGNED  Test | NATURAL_DISASTER | LOW | Disaster-Team-1
+
+[pool-31-thread-1] RELEASED  Disaster-Team-1
+]]></system-out>
+  </testcase>
+</testsuite>
